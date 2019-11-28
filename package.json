@@ -1,0 +1,14 @@
+{
+  "name": "cvpage",
+  "version": "1.0.0",
+  "description": "resume and project page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss main.css -w"
+  },
+  "author": "Miroslava Szabo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
