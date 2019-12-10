@@ -1,0 +1,30 @@
+.skill-box {
+  background-color: rgba($color-white, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  margin: 2rem;
+  max-width: 25rem;
+  min-width: 20rem;
+  min-height: 37rem;
+  max-height: 50rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  transition: transform .3s;
+  position: relative;
+
+  /*@include respond(phone) { 
+    max-width: 35rem;
+    min-width: 30rem;
+ }*/
+
+  &:hover {
+    transform: translateY(-1.5rem) scale(1);
+  }
+  
+  &__text {
+    // padding: 0 1rem;
+    // text-align: left;
+    text-decoration: none;
+}
+}
