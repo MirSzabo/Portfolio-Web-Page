@@ -1,64 +1,97 @@
 body {
-    font-family: "Space Mono", monospace; /*"Lato", sans-serif*/
-    font-weight: 400;
-    line-height: 1.7;
-    color: $color-grey-dark;
-    padding: 3rem;
-  }
+  font-family: "Space Mono", monospace; /*"Lato", sans-serif*/
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+}
 
 .heading-primary {
-    color: whitesmoke;
-    text-transform: uppercase;
-  
-    backface-visibility: hidden;
-    margin-bottom: 6rem;
-  
-    &--main {
-      display: block;
-      font-size: 6rem;
-      font-weight: 400;
-      letter-spacing: 1rem;
-    
-      animation: moveInLeft 2s ease-out;
-    }
-    
-    &--sub {
-      display: block;
-      font-size: 2rem;
-      font-weight: 700;
-      letter-spacing: 1.7rem;
-    
-      animation: moveInRight 2s ease-out;
-    }
+  color: whitesmoke;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+
+    animation: moveInLeft 2s ease-out;
   }
 
-  .heading-secondary {
-    font-size: 3.5rem;
-    text-transform: uppercase;
+  &--sub {
+    display: block;
+    font-size: 2rem;
     font-weight: 700;
+    letter-spacing: 1.7rem;
+
+    animation: moveInRight 2s ease-out;
+  }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: skewY(5deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.hyf {
+  &:link,
+  &:visited {
+    text-decoration: none;
     display: inline-block;
-    background-image: linear-gradient(to right, $color-primary, $color-primary-light, $color-primary-dark);
-    -webkit-background-clip: text;
-    color: transparent;
-    letter-spacing: .2rem;
-    transition: all .2s;
-
-    &:hover {
-      transform: skewY(5deg) scale(1.1);
-      text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
-    }
+    transition: all 0.2s;
+    font-weight: bold;
   }
-
-  .heading-tertiary {
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-transform: uppercase;
+  &:hover,
+  &:active {
+    color: $color-primary;
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
   }
+}
 
-  .paragraph {
-    font-size: 1.6rem;
+.heading-quaternary {
+  font-size: 1.6rem;
+  text-align: center;
+  color: $color-grey-light;
+  background-color: $color-grey-dark-3;
+  text-decoration: none;
+  text-transform: uppercase;
 
-    &:not(:last-child) {
-      margin-bottom: 3rem;
-    }
+  &:hover {
+    color: $color-primary;
   }
+}

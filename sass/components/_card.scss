@@ -20,6 +20,8 @@
   height: 50rem;
   min-width: 30rem;
     margin-bottom: 8rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
     box-shadow: 0 1px 0 rgba($color-black, 0.12);
 
   &__side {
@@ -45,8 +47,8 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         );
       }
     }
@@ -71,8 +73,8 @@
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         ),
         url(./img/project1.jpg);
     }

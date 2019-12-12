@@ -2,13 +2,12 @@
   //max-width: $grid-width;
   display: grid;
   margin: 0 auto;
-
+  
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 4rem;
- // margin-bottom: $gutter-vertical;
- // margin-right: $gutter-horizontal;
+  margin-right: 8rem;
+  margin-left: 8rem;
   &--item {
     padding: 0 2rem;
   }
 }
-

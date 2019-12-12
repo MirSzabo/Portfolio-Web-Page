@@ -1,3 +1,15 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 15rem;
+  list-style-type: none;
+  /*@include respond(tab-port) { 
+        margin: 0 5rem;
+    }*/
+} 
+
 .skill-box {
   background-color: rgba($color-white, 0.8);
   font-size: 1.5rem;
