@@ -1,7 +1,7 @@
 .composition {
     position: relative;
 
-    @include respond(phone) { 
+    @include respond(tab-port) { 
         padding: 0 3rem;
      }
 

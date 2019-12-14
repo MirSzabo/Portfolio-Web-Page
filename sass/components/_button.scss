@@ -23,5 +23,33 @@
     &--white {
       background-color: $color-white;
       color: $color-grey-dark;
-    }    
+    }  
+  }
+
+.card-back-btn {
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    display: block;
+    transition: all .2s;
+    font-size: 1.6rem;
+    border: solid 1px $color-white;
+    color: $color-white;
+    text-align: center;
+    margin: auto; 
+    margin-top: 2rem;
+  }
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba($color-black,.2);
+  }
+
+  &:active {
+   transform: translateY(-1px);
+   box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+  }
+
 }
