@@ -4,11 +4,15 @@
   "description": "resume and project page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss main.css -w"
+    "compile:sass": "node-sass sass/main.scss main.css -w",
+    "start": "node index.js"
   },
   "author": "Miroslava Szabo",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
