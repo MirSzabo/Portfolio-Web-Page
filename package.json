@@ -4,7 +4,7 @@
   "description": "resume and project page",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss main.css -w",
+    "compile:sass": "node-sass sass/main.scss public/main.css -w",
     "start": "node index.js"
   },
   "author": "Miroslava Szabo",
