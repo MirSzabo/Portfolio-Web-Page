@@ -77,13 +77,13 @@
           $color-primary-light,
           $color-primary-dark
         ),
-        url(./img/project1.jpg);
+        url(./img/game-of-life.png);
     }
     &--2 {
-      background-image: url(./img/project1.jpg);
+      background-image: url(./img/weather-app.png);
     }
     &--3 {
-      background-image: url(./img/project1.jpg);
+      background-image: url(./img/tetris.png);
     }
   }
   &__heading {
