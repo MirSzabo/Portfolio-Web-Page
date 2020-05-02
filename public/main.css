@@ -309,10 +309,9 @@ body {
     .card__picture--4 {
         background-image: url(./img/meal-sharing.png); }
     .card__picture--5 {
-          background-image: url(./img/todo.png); }
-          
+          background-image: url(./img/todo.png); }      
     .card__picture--6 {
-            background-image: url(./img/react.png); }
+            background-image: url(./img/table.png); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
