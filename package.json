@@ -10,7 +10,7 @@
   "author": "Miroslava Szabo",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "express": "^4.17.1"
